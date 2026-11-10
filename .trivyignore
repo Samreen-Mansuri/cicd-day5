@@ -1,0 +1,4 @@
+# CVE-2025-47273 — setuptools PackageIndex path traversal.
+# Only exploitable when setuptools downloads packages at build time,
+# not at runtime in this Flask image. Risk reviewed and accepted.
+CVE-2025-47273
